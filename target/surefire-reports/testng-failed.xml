@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="framework.Hybrid.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Homepagetests(failed)" parallel="tests">
+    <classes>
+      <class name="framework.Hybrid.HomePage">
+        <methods>
+          <include name="browserinitiation"/>
+          <include name="quitBrowser"/>
+          <include name="homeScreen"/>
+        </methods>
+      </class> <!-- framework.Hybrid.HomePage -->
+    </classes>
+  </test> <!-- Homepagetests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

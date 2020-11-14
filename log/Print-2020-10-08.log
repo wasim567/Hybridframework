@@ -1,0 +1,10 @@
+10:07:37.490 [TestNG-tests-2] INFO  resources.Base - Entered password
+10:07:39.353 [TestNG-tests-2] INFO  resources.Base - submitt clicked
+10:07:45.131 [TestNG-tests-1] INFO  resources.Base - Browser quit
+10:08:01.006 [TestNG-tests-2] INFO  resources.Base - Entered username
+10:08:21.545 [TestNG-tests-2] INFO  resources.Base - Entered username
+10:09:03.721 [TestNG-tests-2] INFO  resources.Base - Browser quit
+10:18:42.692 [TestNG-tests-1] INFO  resources.Base - Initialize the browser
+10:18:42.692 [TestNG-tests-2] INFO  resources.Base - Initialize the browser
+10:18:42.692 [TestNG-tests-2] INFO  resources.Base - Initialize the browser
+10:18:42.692 [TestNG-tests-1] INFO  resources.Base - Initialize the browser

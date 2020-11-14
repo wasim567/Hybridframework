@@ -1,0 +1,8 @@
+11:00:32.691 [main] INFO  resources.Base - Browser quit
+11:02:05.198 [main] INFO  resources.Base - Initialize the browser
+11:02:08.648 [main] INFO  resources.Base - Loded the hpome page
+11:02:10.333 [main] INFO  resources.Base - assertion Passed
+11:02:26.952 [main] INFO  resources.Base - Clicked on button
+11:02:28.932 [main] INFO  resources.Base - Browser quit
+11:02:33.317 [main] INFO  resources.Base - Initialize the browser
+11:02:35.054 [main] INFO  resources.Base - Loded the hpome page

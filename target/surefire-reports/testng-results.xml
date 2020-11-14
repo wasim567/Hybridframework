@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="258927" started-at="2020-10-06T04:33:26Z" finished-at="2020-10-06T04:37:45Z">
+    <groups>
+    </groups>
+    <test name="Homepagetests" duration-ms="258927" started-at="2020-10-06T04:33:26Z" finished-at="2020-10-06T04:37:45Z">
+      <class name="framework.Hybrid.HomePage">
+        <test-method status="PASS" signature="browserinitiation()[pri:0, instance:framework.Hybrid.HomePage@2053d869]" name="browserinitiation" is-config="true" duration-ms="153401" started-at="2020-10-06T04:33:26Z" finished-at="2020-10-06T04:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinitiation -->
+        <test-method status="FAIL" signature="homeScreen()[pri:0, instance:framework.Hybrid.HomePage@2053d869]" name="homeScreen" duration-ms="52112" started-at="2020-10-06T04:35:59Z" finished-at="2020-10-06T04:36:51Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [An Academy to Learn Ern & Shine  in your QA Career] but found [An Academy to Learn Earn & Shine  in your QA Career]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [An Academy to Learn Ern & Shine  in your QA Career] but found [An Academy to Learn Earn & Shine  in your QA Career]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at framework.Hybrid.HomePage.homeScreen(HomePage.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeScreen -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:framework.Hybrid.HomePage@2053d869]" name="quitBrowser" is-config="true" duration-ms="45571" started-at="2020-10-06T04:36:59Z" finished-at="2020-10-06T04:37:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- framework.Hybrid.HomePage -->
+    </test> <!-- Homepagetests -->
+  </suite> <!-- Suite -->
+</testng-results>

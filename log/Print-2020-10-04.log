@@ -1,0 +1,7 @@
+11:28:43.143 [TestNG-tests-2] INFO  resources.Base - submitt clicked
+11:29:26.098 [TestNG-tests-2] INFO  resources.Base - Browser quit
+11:32:06.915 [TestNG-tests-2] INFO  resources.Base - Initialize the browser
+11:32:06.915 [TestNG-tests-1] INFO  resources.Base - Initialize the browser
+11:32:11.979 [TestNG-tests-2] INFO  resources.Base - Loded the hpome page
+11:32:12.031 [TestNG-tests-1] INFO  resources.Base - Loded the hpome page
+11:32:52.965 [TestNG-tests-1] INFO  resources.Base - Browser quit

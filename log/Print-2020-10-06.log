@@ -1,0 +1,7 @@
+11:33:52.797 [TestNG-tests-2] INFO  resources.Base - Browser quit
+10:04:14.798 [TestNG-tests-2] INFO  resources.Base - Initialize the browser
+10:04:14.798 [TestNG-tests-1] INFO  resources.Base - Initialize the browser
+10:05:59.600 [TestNG-tests-1] INFO  resources.Base - Loded the hpome page
+10:06:00.136 [TestNG-tests-2] INFO  resources.Base - Loded the hpome page
+10:07:34.805 [TestNG-tests-2] INFO  resources.Base -  login Page loaded successfully
+10:07:37.219 [TestNG-tests-2] INFO  resources.Base - Entered username

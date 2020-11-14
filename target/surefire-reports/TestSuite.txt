@@ -1,0 +1,71 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 119.327 s <<< FAILURE! - in TestSuite
+Loginpage(framework.Hybrid.Loginpage)  Time elapsed: 10.616 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a _ngcontent-mhn-c18="" href="https://courses.rahulshettyacademy.com/sign_in" class="theme-btn register-btn">...</a> is not clickable at point (939, 27). Other element would receive the click: <div _ngcontent-mhn-c18="" class="preloader">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABDUL-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Abdul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10366}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: df7d42873a6a695a7e74c0d7695c76c8
+	at framework.Hybrid.Loginpage.Loginpage(Loginpage.java:37)
+
+homeScreen(framework.Hybrid.HomePage)  Time elapsed: 3.08 s  <<< FAILURE!
+java.lang.AssertionError: expected [An Academy to Learn Ern & Shine  in your QA Career] but found [An Academy to Learn Earn & Shine  in your QA Career]
+	at framework.Hybrid.HomePage.homeScreen(HomePage.java:37)
+
+login(framework.Hybrid.Loginpage)  Time elapsed: 21.243 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#user_email"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABDUL-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Abdul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10366}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: df7d42873a6a695a7e74c0d7695c76c8
+*** Element info: {Using=id, value=user_email}
+	at framework.Hybrid.Loginpage.login(Loginpage.java:54)
+
+login(framework.Hybrid.Loginpage)  Time elapsed: 20.488 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#user_email"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABDUL-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Abdul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10366}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: df7d42873a6a695a7e74c0d7695c76c8
+*** Element info: {Using=id, value=user_email}
+	at framework.Hybrid.Loginpage.login(Loginpage.java:54)
+
+login(framework.Hybrid.Loginpage)  Time elapsed: 20.424 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#user_email"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABDUL-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Abdul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10366}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: df7d42873a6a695a7e74c0d7695c76c8
+*** Element info: {Using=id, value=user_email}
+	at framework.Hybrid.Loginpage.login(Loginpage.java:54)
+
+lostpwd(framework.Hybrid.Loginpage)  Time elapsed: 20.456 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"[href*='password/new']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABDUL-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Abdul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10366}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: df7d42873a6a695a7e74c0d7695c76c8
+*** Element info: {Using=css selector, value=[href*='password/new']}
+	at framework.Hybrid.Loginpage.lostpwd(Loginpage.java:71)
+

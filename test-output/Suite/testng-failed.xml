@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="framework.Hybrid.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Loginexcel(failed)" parallel="tests">
+    <classes>
+      <class name="framework.Hybrid.Exceldatadriventest">
+        <methods>
+          <include name="logintest"/>
+          <include name="coseDriver"/>
+          <include name="driverInitialization"/>
+        </methods>
+      </class> <!-- framework.Hybrid.Exceldatadriventest -->
+    </classes>
+  </test> <!-- Loginexcel(failed) -->
+</suite> <!-- Failed suite [Suite] -->
